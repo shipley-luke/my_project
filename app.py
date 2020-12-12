@@ -18,4 +18,4 @@ for i in range(15):
         pageNum = div.select_one('div.paginate > strong').text
         if '쉬플리코리아' in title:
             print(count,pageNum, newUrl)
-        count += 1
+        count += 1 
