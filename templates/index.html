@@ -61,7 +61,7 @@
         function makeCard(keyword, count, page, newUrl) {
             let tempHtml = ` <tr>
                               <td align=center>${keyword}</td>
-                              <td align=center>${count}</td>
+                              <td align=center>${((page-1)*25)+count}</td>
                               <td align=center>${page}</td>
                               <td align=center>${newUrl}</td>
                            </tr>`;
